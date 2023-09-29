@@ -8,6 +8,7 @@ const Folders = ({ files }) => {
 		return (
 				<div className="folder" >
 					<>
+						{isExpanded && <div className="vertical-line"/>}
 						<div className="flex flex-row gap-2 cursor-pointer" onClick={() => toggleExpanded(!isExpanded)}>
 							<Image
 									src={isExpanded?  "/minus-square.svg": "/plus-square.svg"}
@@ -23,7 +24,7 @@ const Folders = ({ files }) => {
 							/>
 							<h2 className="title">{files.name}</h2>
 						</div>
-						{isExpanded && files.items.map((item) => <Folders files={item} />)}
+						{isExpanded && files.items.map((item, index) => <Folders key={index} files={item} />)}
 					</>
 				</div>
 		)

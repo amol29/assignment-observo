@@ -32,6 +32,17 @@ body {
   display: flex;
   font-size: 12px;
 }
+.folder {
+  position: relative;
+}
+
+.folder .vertical-line {
+  position: absolute;
+  border-left: 1px dotted gray;
+  top: 20px;
+  left: 7px;
+  height: calc(100% - 20px);
+}
 
 .folder .item, .folder .folder {
   margin-left: 28px;
