@@ -1,26 +1,26 @@
 {
-    "name": "recursive-components-react",
+    "name": "file-explorer-ui",
     "type": "folder",
     "items": [
         {
             "name": ".gitignore",
-            "type": "file"
+            "type": "git"
         },
         {
             "name": "index.html",
-            "type": "file"
+            "type": "html"
         },
         {
             "name": "package-lock.json",
-            "type": "file"
+            "type": "json"
         },
         {
             "name": "package.json",
-            "type": "file"
+            "type": "json"
         },
         {
             "name": "vite.config.js",
-            "type": "file"
+            "type": "js"
         },
         {
             "name": "src",
@@ -28,27 +28,27 @@
             "items": [
                 {
                     "name": "App.css",
-                    "type": "file"
+                    "type": "css"
                 },
                 {
-                    "name": "App.jsx",
-                    "type": "file"
+                    "name": "App.js",
+                    "type": "js"
                 },
                 {
                     "name": "index.css",
-                    "type": "file"
+                    "type": "css"
                 },
                 {
-                    "name": "main.jsx",
-                    "type": "file"
+                    "name": "main.js",
+                    "type": "js"
                 },
                 {
                     "name": "components",
                     "type": "folder",
                     "items": [
                         {
-                            "name": "Checkbox.jsx",
-                            "type": "file"
+                            "name": "Checkbox.js",
+                            "type": "js"
                         }
                     ]
                 },
@@ -57,12 +57,12 @@
                     "type": "folder",
                     "items": [
                         {
-                            "name": "Home.jsx",
-                            "type": "file"
+                            "name": "Home.js",
+                            "type": "js"
                         },
                         {
-                            "name": "About.jsx",
-                            "type": "file"
+                            "name": "About.js",
+                            "type": "js"
                         }
                     ]
                 }

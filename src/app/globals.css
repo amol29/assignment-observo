@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  font-size: 12px;
+}
+
+.folder .item, .folder .folder {
+  margin-left: 28px;
+  margin-top: 10px;
+}
+
+.file-name {
+  padding: 0;
+  margin: 0;
+}
