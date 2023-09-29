@@ -67,6 +67,20 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "public",
+            "type": "folder",
+            "items": [
+                {
+                    "name": "files.css",
+                    "type": "json"
+                },
+                {
+                    "name": "public.html",
+                    "type": "html"
+                }
+            ]
         }
     ]
 
